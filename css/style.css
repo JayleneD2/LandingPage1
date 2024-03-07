@@ -1,55 +1,37 @@
-.blue , footer {
+*{
+    overflow: auto;
+
+}
+
+#main-section {
     background-color: #1f2937;
+   color:white;
+   padding: 20px 60px;
 }
 
-#maintext {
-    font-size: 48px ; 
-    font-weight: bold !important;
-
+#shop-link{
+    float:right; 
+    text-align:center;
+    
 }
 
-/*header links */
-
-a {
-   text-decoration: none;
-   color: white;
-   
-}
-
-nav {
-    overflow: hidden;
-}
-
-/* Style the navigation links */
-nav a {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
+#shop-link a {
+    margin-right: 40px;
     text-decoration: none;
-    padding: 16px 20px;
+    color:white;
+    
 }
 
-.blue  {
-    display: inline-block;
+#shop-link a:hover{
+    background-color: white;
+    color:black;
 }
 
-/* Change color on hover */
-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.logo {
-    padding: 16px 20px;
-}
-
-.align-right img  {
-    float:right;
-}
-
-.align-left   {
-    text-align: left;
+#align.left {
     float: left;
 }
 
+.hero-img {
+    float: right;
+   
+}
